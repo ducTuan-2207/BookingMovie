@@ -10,7 +10,8 @@
 		229FBEE42BC2F3860005D7C2 /* BookingMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEE32BC2F3860005D7C2 /* BookingMovieApp.swift */; };
 		229FBEE62BC2F3860005D7C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEE52BC2F3860005D7C2 /* ContentView.swift */; };
 		229FBEE82BC2F3880005D7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229FBEE72BC2F3880005D7C2 /* Assets.xcassets */; };
-		229FBEEB2BC2F3880005D7C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229FBEEA2BC2F3880005D7C2 /* Preview Assets.xcassets */; };
+		229FBEF62BC2F5410005D7C2 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEF52BC2F5410005D7C2 /* TicketView.swift */; };
+		229FBEFA2BC30C180005D7C2 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEF92BC30C180005D7C2 /* CircleBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +19,8 @@
 		229FBEE32BC2F3860005D7C2 /* BookingMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingMovieApp.swift; sourceTree = "<group>"; };
 		229FBEE52BC2F3860005D7C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		229FBEE72BC2F3880005D7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		229FBEEA2BC2F3880005D7C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		229FBEF52BC2F5410005D7C2 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		229FBEF92BC30C180005D7C2 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,10 @@
 		229FBEE22BC2F3860005D7C2 /* BookingMovie */ = {
 			isa = PBXGroup;
 			children = (
+				229FBEF32BC2F5090005D7C2 /* Buttons */,
+				229FBEF22BC2F5010005D7C2 /* Data */,
+				229FBEF12BC2F4F80005D7C2 /* UI */,
+				229FBEF42BC2F5160005D7C2 /* Views */,
 				229FBEE32BC2F3860005D7C2 /* BookingMovieApp.swift */,
 				229FBEE52BC2F3860005D7C2 /* ContentView.swift */,
 				229FBEE72BC2F3880005D7C2 /* Assets.xcassets */,
@@ -62,9 +68,38 @@
 		229FBEE92BC2F3880005D7C2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				229FBEEA2BC2F3880005D7C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		229FBEF12BC2F4F80005D7C2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				229FBEF92BC30C180005D7C2 /* CircleBackground.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		229FBEF22BC2F5010005D7C2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		229FBEF32BC2F5090005D7C2 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		229FBEF42BC2F5160005D7C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				229FBEF52BC2F5410005D7C2 /* TicketView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +160,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229FBEEB2BC2F3880005D7C2 /* Preview Assets.xcassets in Resources */,
 				229FBEE82BC2F3880005D7C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229FBEF62BC2F5410005D7C2 /* TicketView.swift in Sources */,
 				229FBEE62BC2F3860005D7C2 /* ContentView.swift in Sources */,
 				229FBEE42BC2F3860005D7C2 /* BookingMovieApp.swift in Sources */,
+				229FBEFA2BC30C180005D7C2 /* CircleBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
