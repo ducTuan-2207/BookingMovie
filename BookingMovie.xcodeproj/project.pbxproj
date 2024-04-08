@@ -12,6 +12,9 @@
 		229FBEE82BC2F3880005D7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229FBEE72BC2F3880005D7C2 /* Assets.xcassets */; };
 		229FBEF62BC2F5410005D7C2 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEF52BC2F5410005D7C2 /* TicketView.swift */; };
 		229FBEFA2BC30C180005D7C2 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEF92BC30C180005D7C2 /* CircleBackground.swift */; };
+		229FBEFC2BC3A0010005D7C2 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEFB2BC3A0010005D7C2 /* TicketData.swift */; };
+		229FBEFE2BC3A0580005D7C2 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEFD2BC3A0580005D7C2 /* PosterData.swift */; };
+		229FBF002BC3A0810005D7C2 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEFF2BC3A0810005D7C2 /* TabData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		229FBEE72BC2F3880005D7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229FBEF52BC2F5410005D7C2 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		229FBEF92BC30C180005D7C2 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		229FBEFB2BC3A0010005D7C2 /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		229FBEFD2BC3A0580005D7C2 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		229FBEFF2BC3A0810005D7C2 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 		229FBEF22BC2F5010005D7C2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				229FBEFB2BC3A0010005D7C2 /* TicketData.swift */,
+				229FBEFD2BC3A0580005D7C2 /* PosterData.swift */,
+				229FBEFF2BC3A0810005D7C2 /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -171,10 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229FBF002BC3A0810005D7C2 /* TabData.swift in Sources */,
 				229FBEF62BC2F5410005D7C2 /* TicketView.swift in Sources */,
 				229FBEE62BC2F3860005D7C2 /* ContentView.swift in Sources */,
+				229FBEFE2BC3A0580005D7C2 /* PosterData.swift in Sources */,
 				229FBEE42BC2F3860005D7C2 /* BookingMovieApp.swift in Sources */,
 				229FBEFA2BC30C180005D7C2 /* CircleBackground.swift in Sources */,
+				229FBEFC2BC3A0010005D7C2 /* TicketData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
