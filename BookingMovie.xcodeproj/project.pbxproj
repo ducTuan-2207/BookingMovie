@@ -17,6 +17,7 @@
 		229FBF002BC3A0810005D7C2 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBEFF2BC3A0810005D7C2 /* TabData.swift */; };
 		229FBF032BC3A0E30005D7C2 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBF022BC3A0E30005D7C2 /* Ticket.swift */; };
 		229FBF052BC3C30F0005D7C2 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FBF042BC3C30F0005D7C2 /* Tickets.swift */; };
+		22D93EA72BC59BA800C46298 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D93EA62BC59BA800C46298 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		229FBEFF2BC3A0810005D7C2 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		229FBF022BC3A0E30005D7C2 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		229FBF042BC3C30F0005D7C2 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		22D93EA62BC59BA800C46298 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				229FBEF92BC30C180005D7C2 /* CircleBackground.swift */,
+				22D93EA62BC59BA800C46298 /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				229FBEE62BC2F3860005D7C2 /* ContentView.swift in Sources */,
 				229FBF032BC3A0E30005D7C2 /* Ticket.swift in Sources */,
 				229FBEFE2BC3A0580005D7C2 /* PosterData.swift in Sources */,
+				22D93EA72BC59BA800C46298 /* CustomTabBar.swift in Sources */,
 				229FBEE42BC2F3860005D7C2 /* BookingMovieApp.swift in Sources */,
 				229FBEFA2BC30C180005D7C2 /* CircleBackground.swift in Sources */,
 				229FBEFC2BC3A0010005D7C2 /* TicketData.swift in Sources */,
